@@ -1,6 +1,7 @@
 # OVERVIEW
 Bone Fracture Detection done in Kaggle using Jupyter Notebook and Python. Evaluating a Faster R-CNN model from the library detectron2 for image detection.
 
+
 # DATASET
 The dataset includes:
 
@@ -91,13 +92,13 @@ python visualize.py --dataset-name bone_fractures_train --num-images 5
 
 # PERFORMANCE METRICS
 
-## Faster R-CNN with ResNet-50 FPN
+Faster R-CNN with ResNet-50 FPN
 -Mean Average Precision (mAP): 0.916
 -Class Accuracy: 0.966
 -Loss: 0.262
 -Loss Box Regression: 0.1165
 
-## Faster R-CNN with ResNeXt-101 FPN
+Faster R-CNN with ResNeXt-101 FPN
 -Mean Average Precision (mAP): 0.901
 -Class Accuracy: 0.962
 -Loss: 0.261
